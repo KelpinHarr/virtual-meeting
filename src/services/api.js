@@ -3,7 +3,7 @@ import { formatErrorMessage } from '../utils/error';
 
 export { formatErrorMessage };
 
-const API_BASE = 'https://api-meet.gdgsurabaya.web.id/api';
+const API_BASE = 'https://apimeet.aizone.dev/api';
 
 const api = axios.create({
   baseURL: API_BASE,
